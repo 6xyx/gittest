@@ -22,8 +22,8 @@ class Teacher(Person):
     def info(self):
         super().info()
         print('教龄',self.teachofyear)
-stu=Student('张三',20,'147852')
-tea=Teacher('李四',40,7)
+stu=Student('王三',20,'147852')
+tea=Teacher('李四',41,7)
 stu.info()
 
 print('____________')
